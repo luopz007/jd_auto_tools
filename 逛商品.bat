@@ -1,4 +1,5 @@
 @echo off
+title jd - commodity
 :hello
 timeout /t 3
 adb shell input swipe 500 1700 500 300
