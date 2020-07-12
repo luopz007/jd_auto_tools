@@ -1,7 +1,7 @@
 @echo off
 title jd - video
 :hello
-timeout /t 15
-adb shell input swipe 500 1700 500 300
+timeout /t 30
+adb shell input swipe 500 1000 500 50
 cls
 goto hello
